@@ -1,9 +1,4 @@
 [core]
-    remote = storage
-['remote "origin"']
+    remote = dagshub
+['remote "dagshub"']
     url = https://dagshub.com/aron-quito/fall-dataset.dvc
-['remote "storage"']
-    url = https://dagshub.com/aron-quito/fall-risk.git
-    auth = custom
-    custom_auth_header = Authorization
-    password = Bearer 981ab8fd29455af6f66c477f8bbaa88384bbcada
