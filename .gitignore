@@ -1,0 +1,13 @@
+# Ignorar el entorno virtual
+.venv/
+venv/
+
+# Ignorar archivos temporales de Python
+__pycache__/
+*.pyc
+
+# Ignorar tus datasets de sensores (para que no pesen en GitHub)
+*.csv
+
+*.DS_Store
+fall-dataset/

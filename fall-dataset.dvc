@@ -1,0 +1,6 @@
+outs:
+- md5: 7b9c62ea1e27b25c37d9c4c0d361f197.dir
+  size: 848295
+  nfiles: 55
+  hash: md5
+  path: fall-dataset
