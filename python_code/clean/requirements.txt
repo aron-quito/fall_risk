@@ -1,0 +1,4 @@
+pandas
+matplotlib
+ipython==8.20.0
+ipywidgets
