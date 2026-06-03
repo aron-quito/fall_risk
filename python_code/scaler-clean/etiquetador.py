@@ -4,8 +4,8 @@ import matplotlib.pyplot as plt
 from matplotlib.widgets import SpanSelector, Button
 
 # --- 1. CONFIGURACIÓN ---
-CARPETA_DATOS = "/Users/aron/githubRepo/fall_risk/fall-dataset/SisFall_procesado/SA04"
-CARPETA_GUARDADO = "/Users/aron/githubRepo/fall_risk/fall-dataset/SisFall_tagueados/SA04"
+CARPETA_DATOS = "/Users/aron/githubRepo/fall_risk/fall-dataset/SisFall_prepro/SA01"
+CARPETA_GUARDADO = "/Users/aron/githubRepo/fall_risk/fall-dataset/SisFall_tag/SA01"
 os.makedirs(CARPETA_GUARDADO, exist_ok=True)
 
 archivos_csv = sorted([f for f in os.listdir(CARPETA_DATOS) if f.endswith('.csv')])
